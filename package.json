@@ -1,0 +1,28 @@
+{
+  "name": "vrpinstances",
+  "version": "1.0.0",
+  "description": "enriches json vrp instances and offers benchmark instances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strernd/vrpinstances.git"
+  },
+  "keywords": [
+    "vrp",
+    "vehicle",
+    "routing",
+    "parser"
+  ],
+  "author": "Bernd Strehl <bernd.strehl@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strernd/vrpinstances/issues"
+  },
+  "homepage": "https://github.com/Strernd/vrpinstances#readme",
+  "dependencies": {
+    "vrptojson": "^1.0.1"
+  }
+}
