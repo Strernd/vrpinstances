@@ -44,12 +44,13 @@ Example output for the test instance file in [vrptojson](https://www.npmjs.com/p
         '4': 28.284271247461902,
         '5': 0 } },
   demand: { '1': 0, '2': 10, '3': 10, '4': 10, '5': 10 },
+  coords: ...,
   c: 100,
   depot: 1 }
 ```
 
 You can also get instances of the Augerat et al. A and B set directly with 
-```
+```js
 const instance = vrp.get('A-n32-k5');
 ```
 
