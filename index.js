@@ -21,6 +21,7 @@ function parse( instance ) {
     returnedInstance.demand = instance.demand;
     returnedInstance.c = instance.CAPACITY;
     returnedInstance.depot = instance.depots[ 0 ];
+    returnedInstance.coords = instance.coords;
     return returnedInstance;
 }
 
